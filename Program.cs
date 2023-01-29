@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Укажите количество строк");
+﻿Console.WriteLine("Введите кол-во строк");
 int num = int.Parse(Console.ReadLine()!);
 string[] arr = UserFillArray(num);
 Console.WriteLine();
@@ -10,7 +10,7 @@ if (count > 0)
     string[] arrNew = FillArrayNew(arr, count);
     PrintArray(arrNew);
 }
-else Console.WriteLine("Нет строк, длина которых меньше либо равна 3 символам");
+else Console.WriteLine("Отсутствуют строки, с длинной менее либо равной 3 символам");
 
 
 
